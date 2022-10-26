@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 10px; 
+    background: linear-gradient(45deg, #fdeff9,#ffefba,#ffffff,#C9D6FF);
+    height: 100%;
+    animation: gradient 5s ease infinite;
+    background-size: 200% 200%;
+}
+    @keyframes gradient {
+        0% {
+           background-position: 0, 50%;
+        }
+        50% {
+            background-position: 100%, 50%;
+         }
+         100% {
+            background-position: 0, 50%;
+         }
+    }
+
+header {
+    padding: 10px;
+    margin: 10px;
+    color:darksalmon;
+}
+
+.imgface1 {
+    width: 155px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color:bisque;
+    
+}
+.imgface2 {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color: bisque;;
+}
+.imgface3 {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color: bisque;;
+}
+.imgface4 {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color: bisque;;
+}
+.imgface5 {
+    width: 160px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color: bisque;;
+}
+.imgface6 {
+    width: 155px;
+    height: 170px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left;
+    background-color: bisque;;
+}
+.student {
+    width: 10px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+    cursor:url("1850.png"), pointer;
+    float:left; 
+}
+.info {
+    
+    display:block;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    position: relative;
+   
+}
+
+
+.end {
+    font-size: 10px;
+    color: darksalmon;
+
+}
+
+h3 {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    color: darksalmon;
+}
+
+h2, li, a {
+    font-size: 15px;
+    color: darksalmon;
+    font-style: italic;
+}
